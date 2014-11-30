@@ -1,0 +1,192 @@
+Cmp-Mod V01 Created by Cvpcb (2014-10-18 BZR 5203)-product   date = 24/10/2014 15:07:01
+
+BeginCmp
+TimeStamp = /54496F72;
+Reference = C1;
+ValeurCmp = 1u;
+IdModule  = Custom:C1V5-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54496F0A;
+Reference = C2;
+ValeurCmp = 1.8n;
+IdModule  = Custom:C2-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54496DEE;
+Reference = C3;
+ValeurCmp = 120p;
+IdModule  = Custom:C2-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54496F42;
+Reference = C4;
+ValeurCmp = 500p;
+IdModule  = Custom:C2-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54496E83;
+Reference = C5;
+ValeurCmp = 47n;
+IdModule  = Custom:C2-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54496FDD;
+Reference = C6;
+ValeurCmp = 10u;
+IdModule  = Custom:C1V5-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5449C54A;
+Reference = C7;
+ValeurCmp = 1u;
+IdModule  = Custom:C1V5-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5449C586;
+Reference = C8;
+ValeurCmp = 1u;
+IdModule  = Custom:C1V5-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54497AD6;
+Reference = C9;
+ValeurCmp = 10u;
+IdModule  = Custom:C1V5-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5449ABBF;
+Reference = P1;
+ValeurCmp = in;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /5449833A;
+Reference = P2;
+ValeurCmp = rv1.1;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /54498426;
+Reference = P3;
+ValeurCmp = rv1.2;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /54498452;
+Reference = P4;
+ValeurCmp = rv1.3;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /5449A05B;
+Reference = P5;
+ValeurCmp = rv2.3;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /5449A0F5;
+Reference = P6;
+ValeurCmp = rv2.2;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /54499271;
+Reference = P7;
+ValeurCmp = out;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /5449D063;
+Reference = P8;
+ValeurCmp = +9V;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /5449D96D;
+Reference = P9;
+ValeurCmp = Gnd;
+IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /54496D20;
+Reference = R1;
+ValeurCmp = 220K;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /544977F3;
+Reference = R2;
+ValeurCmp = 220K;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54496CF3;
+Reference = R3;
+ValeurCmp = 2.2Meg;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54497A94;
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5449C4D1;
+Reference = R5;
+ValeurCmp = 2.2Meg;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5449C50F;
+Reference = R6;
+ValeurCmp = 2.2Meg;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54496D93;
+Reference = RV1;
+ValeurCmp = C1Meg;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5449749F;
+Reference = RV2;
+ValeurCmp = A100K;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54496CAB;
+Reference = U1;
+ValeurCmp = LM4250;
+IdModule  = Custom:DIP-8_LARGE_PADS;
+EndCmp
+
+EndListe
