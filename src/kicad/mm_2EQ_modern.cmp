@@ -1,30 +1,30 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-18 BZR 5203)-product   date = 24/10/2014 15:07:01
+Cmp-Mod V01 Created by Cvpcb (2014-09-19 BZR 5142)-product   date = 30/11/2014 19:09:09
 
 BeginCmp
-TimeStamp = /54496F72;
+TimeStamp = /547B986F;
 Reference = C1;
-ValeurCmp = 1u;
-IdModule  = Custom:C1V5-LARGE_PADS;
+ValeurCmp = 0.1u;
+IdModule  = Custom:C2-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /54496F0A;
 Reference = C2;
-ValeurCmp = 1.8n;
+ValeurCmp = 1.5n;
 IdModule  = Custom:C2-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /54496DEE;
 Reference = C3;
-ValeurCmp = 120p;
+ValeurCmp = 100p;
 IdModule  = Custom:C2-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /54496F42;
 Reference = C4;
-ValeurCmp = 500p;
+ValeurCmp = 470p;
 IdModule  = Custom:C2-LARGE_PADS;
 EndCmp
 
@@ -45,14 +45,14 @@ EndCmp
 BeginCmp
 TimeStamp = /5449C54A;
 Reference = C7;
-ValeurCmp = 1u;
+ValeurCmp = 10u;
 IdModule  = Custom:C1V5-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /5449C586;
 Reference = C8;
-ValeurCmp = 1u;
+ValeurCmp = 10u;
 IdModule  = Custom:C1V5-LARGE_PADS;
 EndCmp
 
@@ -64,107 +64,100 @@ IdModule  = Custom:C1V5-LARGE_PADS;
 EndCmp
 
 BeginCmp
-TimeStamp = /5449ABBF;
+TimeStamp = /547C07DC;
 Reference = P1;
-ValeurCmp = in;
-IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
+ValeurCmp = In;
+IdModule  = Custom:SIL-2-LARGE_PADS;
 EndCmp
 
 BeginCmp
-TimeStamp = /5449833A;
+TimeStamp = /547C4BCD;
 Reference = P2;
-ValeurCmp = rv1.1;
-IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
+ValeurCmp = High;
+IdModule  = Custom:SIL-3-LARGE_PADS;
 EndCmp
 
 BeginCmp
-TimeStamp = /54498426;
+TimeStamp = /547C2B22;
 Reference = P3;
-ValeurCmp = rv1.2;
-IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
+ValeurCmp = Low;
+IdModule  = Custom:SIL-2-LARGE_PADS;
 EndCmp
 
 BeginCmp
-TimeStamp = /54498452;
+TimeStamp = /547C2506;
 Reference = P4;
-ValeurCmp = rv1.3;
-IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
-EndCmp
-
-BeginCmp
-TimeStamp = /5449A05B;
-Reference = P5;
-ValeurCmp = rv2.3;
-IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
-EndCmp
-
-BeginCmp
-TimeStamp = /5449A0F5;
-Reference = P6;
-ValeurCmp = rv2.2;
-IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
-EndCmp
-
-BeginCmp
-TimeStamp = /54499271;
-Reference = P7;
-ValeurCmp = out;
-IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
+ValeurCmp = Out;
+IdModule  = Custom:SIL-2-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /5449D063;
-Reference = P8;
+Reference = P9;
 ValeurCmp = +9V;
 IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /5449D96D;
-Reference = P9;
+Reference = P10;
 ValeurCmp = Gnd;
 IdModule  = Wire_Pads:SolderWirePad_single_0-8mmDrill;
 EndCmp
 
 BeginCmp
-TimeStamp = /54496D20;
+TimeStamp = /547B991E;
 Reference = R1;
+ValeurCmp = 2Meg;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /547B91BA;
+Reference = R2;
+ValeurCmp = 2Meg;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54496D20;
+Reference = R3;
 ValeurCmp = 220K;
 IdModule  = Custom:R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /544977F3;
-Reference = R2;
-ValeurCmp = 220K;
-IdModule  = Custom:R3-LARGE_PADS;
-EndCmp
-
-BeginCmp
-TimeStamp = /54496CF3;
-Reference = R3;
-ValeurCmp = 2.2Meg;
+Reference = R4;
+ValeurCmp = 100K;
 IdModule  = Custom:R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /54497A94;
-Reference = R4;
+Reference = R5;
 ValeurCmp = 10K;
 IdModule  = Custom:R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /5449C4D1;
-Reference = R5;
-ValeurCmp = 2.2Meg;
+Reference = R6;
+ValeurCmp = 100K;
 IdModule  = Custom:R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
 TimeStamp = /5449C50F;
-Reference = R6;
-ValeurCmp = 2.2Meg;
+Reference = R7;
+ValeurCmp = 100K;
+IdModule  = Custom:R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /547CA090;
+Reference = R8;
+ValeurCmp = 47K;
 IdModule  = Custom:R3-LARGE_PADS;
 EndCmp
 
@@ -183,9 +176,9 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /54496CAB;
+TimeStamp = /547B4B00;
 Reference = U1;
-ValeurCmp = LM4250;
+ValeurCmp = TLC2262;
 IdModule  = Custom:DIP-8_LARGE_PADS;
 EndCmp
 
