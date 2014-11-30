@@ -1,0 +1,33 @@
+* D:\Work\electronics\MM_2EQ_Modern\src\simulations\2eq_dolganoff.asc
+R1 V+ Vref 100K
+R2 Vref 0 100K
+R3 N002 N003 10k
+R4 N001 N002 100K
+R5 N005 N001 220k
+C1 N004 N010 470p
+C2 N009 N005 1.5n
+C3 N004 N001 100p
+C4 N004 N002 47n
+C5 V+ 0 10µ
+C6 Vref 0 10µ
+C7 N003 0 10µ
+C8 N004 N008 10µ
+V1 V+ 0 9
+V2 N006 0 AC 1 Rser=5K
+XU1 N004 N002 N004 pot_plog Rtot=100K wiper=0.5 Rtap=12k tap=0.5
+XU2 N010 N009 N001 pot_nlog Rtot=1000K wiper={w} Rtap=140k tap=0.5
+XU3 Vref N001 V+ 0 N004 level.2 Avol=1Meg GBW=10Meg Slew=10Meg ilimit=25m rail=0 Vos=0 phimargin=45 en=0 enk=0 in=0 ink=0 Rin=500Meg
+XU4 0 N008 out pot_nlog Rtot=25K wiper=1 Rtap=2k tap=0.5
+XU5 N007 N005 V+ 0 N005 level.2 Avol=1Meg GBW=10Meg Slew=10Meg ilimit=25m rail=0 Vos=0 phimargin=45 en=0 enk=0 in=0 ink=0 Rin=500Meg
+R6 N006 0 2Meg
+R7 N008 N004 47K
+R8 N007 Vref 1.5Meg
+C9 N007 N006 0.1µ
+.ac oct 1000 20 20k
+.include potentiometer_standard.lib
+.step lin param w 0 1 0.1
+* 100K log
+* 1Meg rev log
+.lib UniversalOpamps2.sub
+.backanno
+.end
