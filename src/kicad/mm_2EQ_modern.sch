@@ -16,9 +16,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "MM 2EQ \"modern\" preamp"
 Date "30 November 2014"
-Rev ""
+Rev "v 1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
